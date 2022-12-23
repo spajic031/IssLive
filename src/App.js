@@ -33,7 +33,6 @@ class App extends React.Component {
     });
 
     this.setState({ pos: response.data });
-    console.log(response.data);
   };
 
   getIcon(_iconSize) {
@@ -45,10 +44,10 @@ class App extends React.Component {
   iss() {
     setInterval(() => {
       this.getIss();
-    }, 1000);
+    }, 2000);
   }
   componentDidMount() {
-    window.addEventListener("load", this.iss);
+    window.addEventListener("load", this.iss());
   }
   render() {
     const position = [this.state.pos.latitude, this.state.pos.longitude];
