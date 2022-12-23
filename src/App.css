@@ -24,7 +24,7 @@ body::-webkit-scrollbar{
 /* IFRAME VIDEO */
 .iframe{
   width: 19vw;
-  height: 20vh;
+  height: 15rem;
   margin: 1rem;
   border-radius: .8rem;
   box-shadow: 0px 1.6px 3.6px rgb(0 0 0 / 13%);
@@ -32,8 +32,8 @@ body::-webkit-scrollbar{
 /* APP******* */
 .window{
   width: 20vw;
-  height: 65vh;
-  top: 10rem;
+  height: 35rem;
+  top: 15rem;
   left: 1rem;
  position:absolute;
   background-color: rgb(255, 255, 255);
@@ -139,7 +139,7 @@ h1{
   
   .window{
     width: 90vw;
-    height: 20vh;
+    height: 10rem;
     top: 75%;
     left: 5%;
     flex-direction: row;
@@ -158,7 +158,7 @@ h1{
   }
   .iframe{
     width: 45vw;
-    height: 20vh;
+    height: 10rem;
     margin: 1rem 0 1rem 1rem;
     border-radius: .5rem;
 
@@ -174,14 +174,15 @@ h1{
  }
  .window{
   width: 100vw;
-  height: 18vh;
+  height: 8.1rem;
   left: 0;
-  top: 81%;
+  top: auto;
+  bottom: 0;
   border-radius: 0;
  }
  .iframe{
   width: 45vw;
-  height: 14vh;
+  height: 8rem;
   margin: 1rem 0 ;
   border-radius: .5rem;
 
@@ -195,9 +196,9 @@ h1{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    align-items: stretch;
-    margin: .3rem;
+    justify-content:center;
+    align-items: center;
+    margin: .2rem;
     width: 23vw;
     height: 3rem;
     background-color: white;
@@ -209,7 +210,40 @@ h1{
   }
   h1{
     margin: 0;
-    padding: 0;
+    padding: .1rem;
+    
+  }
+}
+@media only screen and (max-width: 460px) {
+  .leaflet-container{
+    height: 70vh;
+  }
+  
+  .values{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: .1rem;
+    width: 47vw;
+    height: 3rem;
+ 
+  }
+  .iframe{
+    width: 100vw;
+    margin: .3rem;
+  }
+  h1{
+    margin: 0;
+    padding: .1rem;
+    
+  }.window{
+    height: 16rem;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
     
   }
 }
