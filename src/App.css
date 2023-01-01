@@ -131,7 +131,8 @@ h1{
 /* RESPONSIVE******* */
 
 @media only screen and (max-width: 1020px) {
-  
+  h1{ font-size: .8rem;
+  }
   .window{
     width: 90vw;
     height: 10rem;
@@ -185,7 +186,7 @@ h1{
 }
 
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 620px) {
   
   .values{
     position: relative;
