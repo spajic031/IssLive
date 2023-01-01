@@ -33,7 +33,7 @@ body::-webkit-scrollbar{
 .window{
   width: 20vw;
   height: 35rem;
-  top: 15rem;
+  bottom: 2rem;
   left: 1rem;
  position:absolute;
   background-color: rgb(255, 255, 255);
@@ -129,18 +129,13 @@ h1{
   
 }
 /* RESPONSIVE******* */
-@media only screen and (max-width: 1020px) {
-  h1 {
-    font-size: .8rem;
-  }
 
-}
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 1020px) {
   
   .window{
     width: 90vw;
     height: 10rem;
-    top: 75%;
+    bottom: 1rem;
     left: 5%;
     flex-direction: row;
     justify-content:space-around;
