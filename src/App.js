@@ -9,7 +9,6 @@ import { Popup } from "react-leaflet/Popup";
 import { useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import Iframe from "react-iframe";
-/* import { useEffect } from "react"; */
 
 class App extends React.Component {
   constructor() {
@@ -71,7 +70,7 @@ class App extends React.Component {
           <h1 className="msg">Tap on the map to see a ISS live location</h1>
         </div>
         <div className="window">
-          <h1 className="name">ISS Tracker</h1>
+          <h1 className="name">ISS Live</h1>
           <div className="values-wrapper">
             <div>
               <div className="values">
