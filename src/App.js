@@ -96,11 +96,12 @@ class App extends React.Component {
 
           <Iframe
             className="iframe"
-            src="https://ustream.tv/embed/17074538"
+            src="https://www.youtube.com/embed/K5JSRGhB-nM?si=yXpUTkq1bbNYwYXlautoplay=1"
             scrolling="no"
             allowfullscreen
             webkitallowfullscreen
             frameborder="0"
+            allow="autoplay"
           />
         </div>
         <MapContainer center={position} zoom={3} scrollWheelZoom={true}>
